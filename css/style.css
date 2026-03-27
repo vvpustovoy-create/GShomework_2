@@ -91,7 +91,7 @@ header {
 }
 .follow us {
   display: flex;
-  justify-content: end;
+  justify-content: space-around;
   align-items: center;
 }
 /*####-----####*/
@@ -166,4 +166,18 @@ header {
 }
 /*####-----####*/
 /*footer*/
+.footer-container {
+  display: flex;
+  background-color: var(--primary);
+}
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+}
+.footer-link:hover {
+  color: var(--color-brand);
+  text-decoration: none;
+}
 /*####-----####*/
