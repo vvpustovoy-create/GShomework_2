@@ -133,3 +133,37 @@ header {
 .aboutus-container {
   display: flex;
 }
+.aboutus-section {
+  text-align: left;
+  font-weight: 400;
+  font-size: 22px;
+}
+.aboutus {
+  margin-bottom: 40px;
+}
+/*####-----####*/
+/*Why-choose-us-section*/
+.Whychooseus-container {
+  display: flex;
+}
+.Whychooseus-section {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 133%;
+  /*text-align: center;*/
+  color: #000;
+  padding-bottom: 72px;
+}
+
+/*####-----####*/
+/*our-procedures-section*/
+.ourprocedures-container {
+  display: flex;
+}
+.ourprocedures-section {
+  padding-bottom: 29px;
+  padding-top: 72px;
+}
+/*####-----####*/
+/*footer*/
+/*####-----####*/
