@@ -64,6 +64,7 @@ ul {
 .footer-link {
   font-style: normal;
   font-weight: 400;
+  font-family: 'Roboto';
 }
 /*####-----####*/
 /*Header*/
@@ -75,24 +76,40 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin left: 99px;
+  margin right: 102px;
+  gap: 48px;
 }
 .header-link {
   color: #011c44;
   text-decoration: none;
   font-size: 18px;
   font-weight: 400;
+  
 }
 .header-link:hover {
   color: var(--color-brand);
 }
 .header-nav {
   display: flex;
-  justify-content: space-around;
-}
-.follow us {
-  display: flex;
+  flex-grow: 1;
   justify-content: space-around;
   align-items: center;
+}
+.header-menu {
+  display: flex;
+  gap: 56px;
+}
+
+.follow-us{
+  display: flex;
+  align-items: center;
+  margin-right: 102px;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+.section-title {
+font-family: "Play", sans-serif;
 }
 /*####-----####*/
 /*Main Section*/
@@ -100,9 +117,9 @@ header {
   padding-top: 86px;
   padding-bottom: 163px;
 }
-.maintitle-container {
+/*.maintitle-container {
   display: flex;
-}
+}*/
 .main-title {
   font-weight: 700;
   font-size: 140px;
@@ -131,7 +148,13 @@ header {
 /*####-----####*/
 /*aboutus-section*/
 .aboutus-container {
-  display: flex;
+  /*display: flex;
+  justify-content: ;
+}*/
+.button-paragraf {
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
 }
 .aboutus-section {
   text-align: left;
@@ -147,6 +170,7 @@ header {
   display: flex;
 }
 .Whychooseus-section {
+  
   font-weight: 400;
   font-size: 18px;
   line-height: 133%;
@@ -157,13 +181,15 @@ header {
 
 /*####-----####*/
 /*our-procedures-section*/
-.ourprocedures-container {
-  display: flex;
-}
 .ourprocedures-section {
   padding-bottom: 29px;
   padding-top: 72px;
 }
+.ourprocedures-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 /*####-----####*/
 /*footer*/
 .footer-container {
