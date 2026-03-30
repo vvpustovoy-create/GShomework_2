@@ -76,8 +76,6 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin left: 99px;
-  margin right: 102px;
   gap: 48px;
 }
 .header-link {
@@ -103,6 +101,7 @@ header {
 
 .follow-us{
   display: flex;
+  gap: 32px;
   align-items: center;
   margin-right: 102px;
   justify-content: space-around;
@@ -127,7 +126,9 @@ font-family: "Play", sans-serif;
   text-transform: capitalize;
   text-align: left;
   font-family: 'Play';
+  color: var(--color-brand);
 }
+
 /*Style-button*/
 .button-primary {
   color: white;
@@ -195,6 +196,7 @@ line-height: 150%;
 .footer-container {
   display: flex;
   background-color: var(--primary);
+  
 }
 .footer-link {
   color: #fff;
