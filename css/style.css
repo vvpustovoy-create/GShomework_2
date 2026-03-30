@@ -194,6 +194,13 @@ aboutus-text {
 .ourprocedures-container {
   display: flex;
 }
+.card {
+  border-radius: 32px;
+  width: 316px;
+  height: 181px;
+  box-shadow: 0 4px 4px 0 rgba(168, 198, 245, 0.38);
+  background: antiquewhite;
+}
 
 /*####-----####*/
 /*footer*/
