@@ -184,6 +184,18 @@ aboutus-text {
   color: #000;
   padding-bottom: 72px;
 }
+.Whychooseus-container {
+  flex-basis: calc(100%-112px / 3);
+  flex-wrap: wrap;
+}
+.card {
+  border-radius: 32px;
+  width: 316px;
+  height: 181px;
+  box-shadow: 0 4px 4px 0 rgba(168, 198, 245, 0.38);
+  background: antiquewhite;
+  padding: 24px 32px;
+}
 
 /*####-----####*/
 /*our-procedures-section*/
@@ -193,13 +205,6 @@ aboutus-text {
 }
 .ourprocedures-container {
   display: flex;
-}
-.card {
-  border-radius: 32px;
-  width: 316px;
-  height: 181px;
-  box-shadow: 0 4px 4px 0 rgba(168, 198, 245, 0.38);
-  background: antiquewhite;
 }
 
 /*####-----####*/
