@@ -83,7 +83,6 @@ header {
   text-decoration: none;
   font-size: 18px;
   font-weight: 400;
-  
 }
 .header-link:hover {
   color: var(--color-brand);
@@ -99,7 +98,7 @@ header {
   gap: 56px;
 }
 
-.follow-us{
+.follow-us {
   display: flex;
   gap: 32px;
   align-items: center;
@@ -108,7 +107,7 @@ header {
   flex-grow: 1;
 }
 .section-title {
-font-family: "Play", sans-serif;
+  font-family: 'Play', sans-serif;
 }
 /*####-----####*/
 /*Main Section*/
@@ -149,19 +148,23 @@ font-family: "Play", sans-serif;
 /*####-----####*/
 /*aboutus-section*/
 .aboutus-container {
-  /*display: flex;
-  justify-content: ;
-}*/
+  display: flex;
+  justify-content:;
+}
 .button-paragraf {
-font-weight: 400;
-font-size: 12px;
-line-height: 150%;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
 }
 .aboutus-section {
   text-align: left;
   font-weight: 400;
   font-size: 22px;
 }
+aboutus-text {
+  max-width: 674px;
+}
+
 .aboutus {
   margin-bottom: 40px;
 }
@@ -171,7 +174,6 @@ line-height: 150%;
   display: flex;
 }
 .Whychooseus-section {
-  
   font-weight: 400;
   font-size: 18px;
   line-height: 133%;
@@ -188,7 +190,6 @@ line-height: 150%;
 }
 .ourprocedures-container {
   display: flex;
-  justify-content: space-between;
 }
 
 /*####-----####*/
@@ -196,7 +197,6 @@ line-height: 150%;
 .footer-container {
   display: flex;
   background-color: var(--primary);
-  
 }
 .footer-link {
   color: #fff;
