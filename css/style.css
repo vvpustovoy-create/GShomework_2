@@ -69,7 +69,7 @@ ul {
 /*####-----####*/
 /*Header*/
 header {
-  background-color: antiquewhite;
+  /*background-color: antiquewhite;*/
 }
 
 .header-container {
@@ -115,6 +115,11 @@ header {
 .mainSection {
   padding-top: 86px;
   padding-bottom: 163px;
+  background-image: url(../images/header_background.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  margin-bottom: 7px;
 }
 /*.maintitle-container {
   display: flex;
@@ -183,6 +188,7 @@ aboutus-text {
   /*text-align: center;*/
   color: #000;
   padding-bottom: 72px;
+  margin-bottom: 124px;
 }
 .Whychooseus-container {
   flex-basis: calc(100%-112px / 3);
@@ -208,10 +214,22 @@ aboutus-text {
   padding-bottom: 29px;
   padding-top: 72px;
 }
-.ourprocedures-container {
-  display: flex;
-}
 
+/*.ourprocedures-container {
+  display: flex;
+}*/
+.procedure-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 62px;
+}
+.list-services {
+  /* border-radius: 120px 4px;*/
+  width: 344px;
+  height: 456px;
+  border: 1px solid #2b7fff;
+}
 /*####-----####*/
 /*footer*/
 .footer-container {
