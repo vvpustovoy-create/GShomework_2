@@ -108,6 +108,7 @@ header {
 }
 .section-title {
   font-family: 'Play', sans-serif;
+  text-align: center;
 }
 /*####-----####*/
 /*Main Section*/
@@ -149,6 +150,7 @@ header {
 /*aboutus-section*/
 .aboutus-container {
   display: flex;
+  margin-bottom: 140px;
   justify-content:;
 }
 .button-paragraf {
@@ -172,6 +174,7 @@ aboutus-text {
 /*Why-choose-us-section*/
 .Whychooseus-container {
   display: flex;
+  gap: 56px;
 }
 .Whychooseus-section {
   font-weight: 400;
