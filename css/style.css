@@ -195,6 +195,11 @@ aboutus-text {
   box-shadow: 0 4px 4px 0 rgba(168, 198, 245, 0.38);
   background: antiquewhite;
   padding: 24px 32px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 133%;
+  text-align: center;
 }
 
 /*####-----####*/
