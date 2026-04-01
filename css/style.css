@@ -39,9 +39,12 @@
 }
 .container {
   width: 100%;
-  max-width: 1284px;
+  max-width: 1288px; /*1240+2*24*/
   margin: 0 auto; /*Центрування контенеру*/
   padding: 0 24px; /*Щоб не прилипало*/
+}
+a {
+  display: inline-block;
 }
 h1,
 h2,
@@ -65,7 +68,7 @@ ul {
 .footer-link {
   font-style: normal;
   font-weight: 400;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 }
 /*####-----####*/
 /*Header*/
@@ -98,14 +101,16 @@ header {
   display: flex;
   gap: 56px;
 }
-
+.follow-us-container {
+  display: flex;
+}
 .follow-us {
   display: flex;
   gap: 32px;
   align-items: center;
-  margin-right: 102px;
-  justify-content: space-around;
-  flex-grow: 1;
+  /* margin-right: 102px;
+  justify-content: space-around;*/
+  flex-grow: 1; /*Ігнорується браузером*/
 }
 .icon-follow-us {
   /* fill: var(--background1);*/
@@ -156,35 +161,60 @@ header {
   color: black;
   background-color: transparent;
 }
-/*####-----####*/
-/*aboutus-section*/
-.aboutus-container {
-  display: flex;
-  margin-bottom: 140px;
-  /*justify-content:;*/
-}
 .button-paragraf {
   font-weight: 400;
   font-size: 12px;
   line-height: 150%;
 }
+/*####-----####*/
+/*aboutus-section*/
 .aboutus-section {
-  text-align: left;
+  /*text-align: left;*/
   font-weight: 400;
   font-size: 22px;
+  padding-top: 37px;
 }
-aboutus-text {
-  max-width: 674px;
+.aboutus-container {
+  display: flex;
+  margin-bottom: 140px;
+  /*justify-content: space-around;*/
+  /*justify-content:;*/
+  /*align-items: flex-start;*/
+  justify-content: space-between;
 }
 
-.aboutus {
-  margin-bottom: 40px;
+aboutus-text {
+  display: flex;
+  padding: 40px;
+  /*max-width: 674px;*/
 }
+
+/*.aboutus {
+  margin-bottom: 40px;
+}*/
+.beauty-img {
+  display: flex;
+  /*flex-basis: calc(40% -32 / 2);*/
+  flex-direction: column; /* Элементы в колонку */
+  justify-content: space-between; /* Распределить по вертикали */
+  /*height: 100px;*/
+  gap: 40px;
+}
+/*.down {
+  align-self: flex-start;
+} /* Вверху слева */
+/*.up {
+  align-self: flex-end;
+}
+
+/* Внизу справа */
 .beauty {
   width: 335px;
   height: 328px;
   border-radius: 50%;
+  box-shadow: 0 4px 4px 0 rgba(168, 198, 245, 0.2);
 }
+
 /*####-----####*/
 /*Why-choose-us-section*/
 .Whychooseus-container {
@@ -211,7 +241,7 @@ aboutus-text {
   box-shadow: 0 4px 4px 0 rgba(168, 198, 245, 0.38);
   background: antiquewhite;
   padding: 24px 32px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 133%;
@@ -258,7 +288,10 @@ aboutus-text {
 .images-rectangl {
   border-radius: 4px 120px;
 }
-
+.fomats-container {
+  display: flex;
+  align-items: center;
+}
 /* Style arrows-button*/
 .arrows {
   width: 44px;
@@ -267,6 +300,7 @@ aboutus-text {
   background-color: transparent;
   border: 1px;
   border-color: var(--primary);
+  flex-shrink: 0; /*Щоб кнопки не стисткались*/
 }
 .arrows:hover {
   background-color: var(--color-brand);
@@ -280,19 +314,46 @@ aboutus-text {
   height: 15px;
 }
 /*####-----####*/
+/*Contacts-section*/
+.contacts-section {
+  padding-bottom: 96px;
+}
+.contacts-container {
+  display: flex;
+  gap: 32px;
+}
+.contact-map {
+  flex-shrink: 0;
+  border-radius: 32px;
+  border: none;
+}
+/*####-----####*/
+
 /*footer*/
+.footer {
+  padding-top: 51px;
+}
 .footer-container {
   display: flex;
   background-color: var(--primary);
+  align-content: center;
+  justify-content: space-between;
+  gap: 186px;
+  flex-grow: 1;
 }
+
 .footer-link {
+  display: flex;
   color: #fff;
   text-decoration: none;
   font-weight: 400;
   font-size: 18px;
+  flex-grow: 1;
 }
 .footer-link:hover {
+  display: flex;
   color: var(--color-brand);
   text-decoration: none;
 }
+
 /*####-----####*/
